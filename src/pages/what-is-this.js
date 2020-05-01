@@ -29,8 +29,7 @@ const Headline = styled.h1`
 
 const Para = styled.p`
   color: #C2FFFF;
-  font-family: 'courier';
-  text-align: center;
+  padding: 8px 32px 8px 32px;
 `;
 
 const LinkWrapper = styled.div`
@@ -46,10 +45,14 @@ const LinkWrapper = styled.div`
 const IndexPage = () => (
   <Wrapper>
     <Headline>Quarantine Film Fest 2020</Headline>
-    <ImageWrapper>
-      <Image />
-    </ImageWrapper>
-    <Para>The best short films to get you through your stay-at-home order.</Para>
+    <Para>
+      Quarantine Film Fest is an idea born out of a thirst for a way to share art with others while maintaining safe social distancing precautions.
+      We wanted to watch some short films and learn a bit about how they were made.  In other words, we wanted to go to a short film festival but couldn't.
+      So we're throwing our own!
+    </Para>
+    <Para>
+      Our Mission: Watch some short films with our friends, donate some money to a good cause, and have a good time. Join us!
+    </Para>
     <LinkWrapper>
       <Link>Home</Link> | <Link>Submit Now</Link> | <Link to='/what-is-this'>Mission</Link> | <Link>Contact</Link>
     </LinkWrapper>
