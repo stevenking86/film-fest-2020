@@ -10,6 +10,7 @@ const Wrapper = styled.div`
   top: 0;
   left: 0;
   width: 100%;
+  padding: 16px;
 `;
 
 const ImageWrapper = styled.div`
@@ -21,15 +22,16 @@ const Headline = styled.h1`
   text-align: center;
   font-family: 'courier';
   font-weight: 200;
-  padding-top: 20vh;
+  padding-top: 15vh;
   color: #C2FFFF;
   font-size: 60px;
 `;
 
 const Para = styled.p`
-color: #C2FFFF;
-font-family: 'courier';
-`
+  color: #C2FFFF;
+  font-family: 'courier';
+  text-align: center;
+`;
 
 const IndexPage = () => (
   <Wrapper>
@@ -37,8 +39,9 @@ const IndexPage = () => (
     <ImageWrapper>
       <Image />
     </ImageWrapper>
-    <p>The best short films to get you through your stay-at-home order.</p>
-    <p>Submissions open soon.</p>
+    <Para>The best short films to get you through your stay-at-home order.</Para>
+    <Para>Submissions open soon.</Para>
+    <Para>threeworkerfilms@gmail.com for more info.</Para>
   </Wrapper>
 );
 
