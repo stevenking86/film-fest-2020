@@ -55,9 +55,9 @@ const Donate = () => (
     </Para>
     <Para>
       <ul>
-        <li><a target="_blank" href="https://secure.nokidhungry.org/site/Donation">No Hungry Kids</a></li>
-        <li><a target="_blank" href="https://www.unicefusa.org/?utm_campaign=20200323_Emergencies">Unicef</a></li>
-        <li><a target="_blank" href="https://give.salvationarmyusa.org/give/276832">Salvation Army</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://secure.nokidhungry.org/site/Donation">No Hungry Kids</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.unicefusa.org/?utm_campaign=20200323_Emergencies">Unicef</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://give.salvationarmyusa.org/give/276832">Salvation Army</a></li>
       </ul>
     </Para>
     <LinkWrapper>

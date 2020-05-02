@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 const Wrapper = styled.div`
   margin: 0 auto;
   background-color: black;
-  height: 100vh;
+  height: 200vh;
   position: absolute;
   top: 0;
   left: 0;
