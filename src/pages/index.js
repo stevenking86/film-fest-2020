@@ -51,7 +51,7 @@ const IndexPage = () => (
     </ImageWrapper>
     <Para>The best short films to get you through your stay-at-home order.</Para>
     <LinkWrapper>
-      <Link>Home</Link> | <Link>Submit Now</Link> | <Link to='/what-is-this'>Mission</Link> | <Link>Contact</Link>
+    <Link>Home</Link> | <Link>Submit Now</Link> | <Link to='/what-is-this'>About</Link> | <Link to='/donate'>Donate</Link>
     </LinkWrapper>
   </Wrapper>
 );

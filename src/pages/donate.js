@@ -31,6 +31,10 @@ const Para = styled.p`
   padding: 8px 32px 8px 32px;
   max-width: 800px;
   margin: 0 auto;
+
+  a {
+    color: white;
+   }
 `;
 
 const LinkWrapper = styled.div`
@@ -43,16 +47,18 @@ const LinkWrapper = styled.div`
   }
   `;
 
-const IndexPage = () => (
+const Donate = () => (
   <Wrapper>
     <Headline>Quarantine Film Fest 2020</Headline>
     <Para>
-      Quarantine Film Fest is an idea born out of a thirst for a way to share art with others while maintaining safe social distancing precautions.
-      We wanted to watch some short films and learn a bit about how they were made.  In other words, we wanted to go to a short film festival but couldn't.
-      So we're throwing our own!
+      We're encouraging all who enjoy any part of this festival to donate to an organization helping out with Covid-19 relief.  Please consider making a donation to one of the following organizaitons:
     </Para>
     <Para>
-      Our Mission: Watch some short films with our friends, donate some money to a good cause, and have a good time. Join us!
+      <ul>
+        <li><a target="_blank" href="https://secure.nokidhungry.org/site/Donation">No Hungry Kids</a></li>
+        <li><a target="_blank" href="https://www.unicefusa.org/?utm_campaign=20200323_Emergencies">Unicef</a></li>
+        <li><a target="_blank" href="https://give.salvationarmyusa.org/give/276832">Salvation Army</a></li>
+      </ul>
     </Para>
     <LinkWrapper>
       <Link>Home</Link> | <Link>Submit Now</Link> | <Link to='/what-is-this'>About</Link> | <Link to='/donate'>Donate</Link>
@@ -60,4 +66,4 @@ const IndexPage = () => (
   </Wrapper>
 );
 
-export default IndexPage
+export default Donate
