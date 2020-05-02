@@ -46,12 +46,13 @@ const LinkWrapper = styled.div`
 const IndexPage = () => (
   <Wrapper>
     <Headline>Quarantine Film Fest 2020</Headline>
+    <Para>The best short films to get you through your stay-at-home order.</Para>
     <ImageWrapper>
       <Image />
     </ImageWrapper>
-    <Para>The best short films to get you through your stay-at-home order.</Para>
+    <Para>Screenings, Q&A's, and more begin May 22.</Para>
     <LinkWrapper>
-    <Link>Home</Link> | <Link>Submit Now</Link> | <Link to='/what-is-this'>About</Link> | <Link to='/donate'>Donate</Link>
+      <Link>Home</Link> | <Link to='/submit'>Submit Now</Link> | <Link to='/what-is-this'>About</Link> | <Link to='/donate'>Donate</Link>
     </LinkWrapper>
   </Wrapper>
 );

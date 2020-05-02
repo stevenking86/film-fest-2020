@@ -55,7 +55,7 @@ const IndexPage = () => (
       Our Mission: Watch some short films with our friends, donate some money to a good cause, and have a good time. Join us!
     </Para>
     <LinkWrapper>
-      <Link>Home</Link> | <Link>Submit Now</Link> | <Link to='/what-is-this'>About</Link> | <Link to='/donate'>Donate</Link>
+      <Link>Home</Link> | <Link to='/submit'>Submit Now</Link> | <Link to='/what-is-this'>About</Link> | <Link to='/donate'>Donate</Link>
     </LinkWrapper>
   </Wrapper>
 );

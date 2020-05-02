@@ -12,11 +12,6 @@ const Wrapper = styled.div`
   width: 100%;
 `;
 
-const ImageWrapper = styled.div`
-  margin: 0 auto;
-  max-width: 400px;
-`;
-
 const Headline = styled.h1`
   text-align: center;
   font-family: 'courier';
@@ -47,17 +42,29 @@ const LinkWrapper = styled.div`
   }
   `;
 
-const Donate = () => (
+const IndexPage = () => (
   <Wrapper>
     <Headline>Quarantine Film Fest 2020</Headline>
+    <Para>To submit: </Para>
+    <Para>1. Make a <Link to='/donate'>donation</Link> to one of the charities we recommend (or another of your choice!) Take a screenshot!</Para>
     <Para>
-      We're encouraging all who enjoy any part of this festival to donate to an organization helping out with Covid-19 relief.  Please consider making a donation to one of the following organizaitons:
+      2. Send us an e-mail to threeworkerfilms@gmail.com with the following:
+      <ul>
+        <li>The names of the film makers who worked on the project</li>
+        <li>A link where we can view your short film</li>
+        <li>A screenshot showing that you made a donation to a charity</li>
+        <li>Whether or not you're interested in doing a zoom Q & A</li>
+        <li>...anything else you'd like to tell us about your film!</li>
+      </ul>
+    </Para>
+    <Para></Para>
+    <Para>
+      Rules:
     </Para>
     <Para>
       <ul>
-        <li><a target="_blank" href="https://secure.nokidhungry.org/site/Donation">No Hungry Kids</a></li>
-        <li><a target="_blank" href="https://www.unicefusa.org/?utm_campaign=20200323_Emergencies">Unicef</a></li>
-        <li><a target="_blank" href="https://give.salvationarmyusa.org/give/276832">Salvation Army</a></li>
+        <li>Films must be 30 minutes or less.</li>
+        <li>Submissions must be sent by May 15 at midnight.</li>
       </ul>
     </Para>
     <LinkWrapper>
@@ -66,4 +73,4 @@ const Donate = () => (
   </Wrapper>
 );
 
-export default Donate
+export default IndexPage
