@@ -26,6 +26,7 @@ const Para = styled.p`
   padding: 8px 32px 8px 32px;
   max-width: 800px;
   margin: 0 auto;
+  font-size: 20px;
 
   a {
     color: white;
@@ -44,9 +45,9 @@ const LinkWrapper = styled.div`
 
 const IndexPage = () => (
   <Wrapper>
-    <Headline>Quarantine Film Fest 2020</Headline>
+    <Headline style={{marginTop: '16px', paddingTop: '0px'}}>Quarantine Film Fest 2020</Headline>
     <Para>To submit: </Para>
-    <Para>1. Make a <Link to='/donate'>donation</Link> to one of the charities we recommend (or another of your choice!) Take a screenshot!</Para>
+    <Para>1. Make a <Link to='/donate'>donation</Link> (minimum $5) to one of the charities we recommend (or another of your choice!) Take a screenshot or send us a copy of the receipt!</Para>
     <Para>
       2. Send us an e-mail to threeworkerfilms@gmail.com with the following:
       <ul>
@@ -80,6 +81,7 @@ const IndexPage = () => (
         <li>Submissions must be sent by May 15 at midnight.</li>
       </ul>
     </Para>
+    <Para>Know a filmmaker who's made a great short film? Please spread the word!</Para>
     <LinkWrapper>
       <Link>Home</Link> | <Link to='/submit'>Submit Now</Link> | <Link to='/what-is-this'>About</Link> | <Link to='/donate'>Donate</Link>
     </LinkWrapper>

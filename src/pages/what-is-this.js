@@ -5,16 +5,11 @@ import { Link } from "gatsby"
 const Wrapper = styled.div`
   margin: 0 auto;
   background-color: black;
-  height: 100vh;
+  height: 200vh;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-`;
-
-const ImageWrapper = styled.div`
-  margin: 0 auto;
-  max-width: 400px;
 `;
 
 const Headline = styled.h1`
@@ -31,6 +26,7 @@ const Para = styled.p`
   padding: 8px 32px 8px 32px;
   max-width: 800px;
   margin: 0 auto;
+  font-size: 20px;
 `;
 
 const LinkWrapper = styled.div`
@@ -45,14 +41,14 @@ const LinkWrapper = styled.div`
 
 const IndexPage = () => (
   <Wrapper>
-    <Headline>Quarantine Film Fest 2020</Headline>
+    <Headline style={{marginTop: '16px', paddingTop: '0px'}}>Quarantine Film Fest 2020</Headline>
     <Para>
       Quarantine Film Fest is an idea born out of a thirst for a way to share art with others while maintaining safe social distancing precautions.
-      We wanted to watch some short films and learn a bit about how they were made.  In other words, we wanted to go to a short film festival but couldn't.
+      We want to watch some short films and learn a bit about how they're made.  In other words, we wanted to go to a short film festival but couldn't.
       So we're throwing our own!
     </Para>
     <Para>
-      Our Mission: Watch some short films with our friends, donate some money to a good cause, and have a good time. Join us!
+      Our Mission: Our Mission: Watch some short films with our friends, donate some money to a good cause, and have a good time getting independent work out there. Join us!
     </Para>
     <LinkWrapper>
       <Link>Home</Link> | <Link to='/submit'>Submit Now</Link> | <Link to='/what-is-this'>About</Link> | <Link to='/donate'>Donate</Link>

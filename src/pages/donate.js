@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 const Wrapper = styled.div`
   margin: 0 auto;
   background-color: black;
-  height: 100vh;
+  height: 150vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -31,6 +31,7 @@ const Para = styled.p`
   padding: 8px 32px 8px 32px;
   max-width: 800px;
   margin: 0 auto;
+  font-size: 20px;
 
   a {
     color: white;
@@ -49,13 +50,13 @@ const LinkWrapper = styled.div`
 
 const Donate = () => (
   <Wrapper>
-    <Headline>Quarantine Film Fest 2020</Headline>
+    <Headline style={{marginTop: '16px', paddingTop: '0px'}}>Quarantine Film Fest 2020</Headline>
     <Para>
       We're encouraging all who enjoy any part of this festival to donate to an organization helping out with Covid-19 relief.  Please consider making a donation to one of the following organizaitons:
     </Para>
     <Para>
       <ul>
-        <li><a target="_blank" rel="noopener noreferrer" href="https://secure.nokidhungry.org/site/Donation">No Hungry Kids</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.nokidhungry.org/coronavirus">No Hungry Kids</a></li>
         <li><a target="_blank" rel="noopener noreferrer" href="https://www.unicefusa.org/?utm_campaign=20200323_Emergencies">Unicef</a></li>
         <li><a target="_blank" rel="noopener noreferrer" href="https://give.salvationarmyusa.org/give/276832">Salvation Army</a></li>
       </ul>

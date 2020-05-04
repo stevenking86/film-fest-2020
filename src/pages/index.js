@@ -6,7 +6,7 @@ import { Link } from "gatsby"
 const Wrapper = styled.div`
   margin: 0 auto;
   background-color: black;
-  height: 100vh;
+  height: 200vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -30,7 +30,9 @@ const Headline = styled.h1`
 const Para = styled.p`
   color: #C2FFFF;
   font-family: 'courier';
+  padding: 8px 32px 8px 32px;
   text-align: center;
+  font-size: 20px;
 `;
 
 const LinkWrapper = styled.div`
@@ -45,7 +47,7 @@ const LinkWrapper = styled.div`
 
 const IndexPage = () => (
   <Wrapper>
-    <Headline>Quarantine Film Fest 2020</Headline>
+    <Headline style={{marginTop: '16px', paddingTop: '0px'}}>Quarantine Film Fest 2020</Headline>
     <Para>The best short films to get you through your stay-at-home order.</Para>
     <ImageWrapper>
       <Image />
