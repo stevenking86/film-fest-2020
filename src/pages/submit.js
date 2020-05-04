@@ -51,7 +51,7 @@ const IndexPage = () => (
     <Para>
       2. Send us an e-mail to threeworkerfilms@gmail.com with the following:
       <ul>
-        <li>The names of the film makers who worked on the project</li>
+        <li>The names of the filmmakers who worked on the project</li>
         <li>A link where we can view your short film</li>
         <li>A screenshot showing that you made a donation to a charity</li>
         <li>Whether or not you're interested in doing a zoom Q & A</li>
@@ -59,7 +59,7 @@ const IndexPage = () => (
       </ul>
     </Para>
     <Para>
-      3. OPTIONAL: Support the organizers.  We're not profiting from this fest in any way.  Shoot us a donation if you feel so inclined.
+      3. OPTIONAL: Support the organizers. We're not profiting from this fest in any way. Shoot 3 Worker Films a donation if you feel so inclined.
     </Para>
     <Para style={{textAlign: 'center'}}>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -81,7 +81,11 @@ const IndexPage = () => (
         <li>Submissions must be sent by May 15 at midnight.</li>
       </ul>
     </Para>
-    <Para>Know a filmmaker who's made a great short film? Please spread the word!</Para>
+    <Para
+      style={{fontSize: '24px', fontFamily: 'courier', textAlign: 'center', marginBottom: '24px'}}
+    >
+      Know a filmmaker who's made a great short film? Please spread the word!
+    </Para>
     <LinkWrapper>
       <Link>Home</Link> | <Link to='/submit'>Submit Now</Link> | <Link to='/what-is-this'>About</Link> | <Link to='/donate'>Donate</Link>
     </LinkWrapper>

@@ -52,7 +52,7 @@ const Donate = () => (
   <Wrapper>
     <Headline style={{marginTop: '16px', paddingTop: '0px'}}>Quarantine Film Fest 2020</Headline>
     <Para>
-      We're encouraging all who enjoy any part of this festival to donate to an organization helping out with Covid-19 relief.  Please consider making a donation to one of the following organizaitons:
+      We're encouraging all who enjoy this festival to donate to an organization helping out with Covid-19 relief.  Please consider making a donation to one of the following organizations:
     </Para>
     <Para>
       <ul>
