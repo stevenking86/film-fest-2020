@@ -48,7 +48,7 @@ const IndexPage = () => (
       So we're throwing our own!
     </Para>
     <Para>
-      Our Mission: Our Mission: Watch some short films with our friends, donate some money to a good cause, and have a good time getting independent work out there. Join us!
+      Our Mission: Watch some short films with our friends, donate some money to a good cause, and have a good time getting independent work out there. Join us!
     </Para>
     <LinkWrapper>
       <Link>Home</Link> | <Link to='/submit'>Submit Now</Link> | <Link to='/what-is-this'>About</Link> | <Link to='/donate'>Donate</Link>
