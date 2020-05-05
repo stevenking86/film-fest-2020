@@ -43,9 +43,8 @@ const IndexPage = () => (
   <Wrapper>
     <Headline style={{marginTop: '16px', paddingTop: '0px'}}>Quarantine Film Fest 2020</Headline>
     <Para>
-      Quarantine Film Fest is an idea born out of a thirst for a way to share art with others while maintaining safe social distancing precautions.
-      We want to watch some short films and learn a bit about how they're made.  In other words, we wanted to go to a short film festival but couldn't.
-      So we're throwing our own!
+      QUARANTINE FILM FEST is born from our thirst to share art with others while maintaining social distance.
+      We miss going to short film festivals so we're throwing our own. Starting May 22, we'll be sharing our official selections, Q&A's with filmmakers, and more!
     </Para>
     <Para>
       Our Mission: Watch some short films with our friends, donate some money to a good cause, and have a good time getting independent work out there. Join us!
