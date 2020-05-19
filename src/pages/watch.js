@@ -60,7 +60,11 @@ const linkStyle = {
 
 
 const Watch = () => {
-  const iframeWidth = window.innerWidth > 650 ? 640 : window.innerWidth  - 32
+  let iframeWidth = 300
+  // tell gatsby not to run this during build
+  if (typeof window !== `undefined`) {
+     iframeWidth = window.innerWidth > 650 ? 640 : window.innerWidth  - 32
+  }
 
   return (
     <>
