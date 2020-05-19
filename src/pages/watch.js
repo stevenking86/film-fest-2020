@@ -16,7 +16,6 @@ const SubHeadline = styled.h2`
   text-align: center;
   font-family: 'courier';
   font-weight: 200;
-  padding-top: 15vh;
   color: #C2FFFF;
   font-size: 40px;
 `;
