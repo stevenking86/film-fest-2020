@@ -34,7 +34,7 @@ const FilmList = styled.div`
 `;
 
 const FilmWrapper = styled.div`
-  margin-bottom: 32px;
+  margin-bottom: 44px;
 `;
 
 const FilmLink = styled.a`
@@ -71,8 +71,8 @@ const Watch = () => {
       <Headline style={{marginTop: '16px', paddingTop: '0px'}}>Quarantine Film Fest 2020</Headline>
 
       <Para>
-        <p><span style={voteStyle}>How to Vote: </span></p>
         <p>We'll be donating $100 to the winner's charity of choice in their name.</p>
+        <p><span style={voteStyle}>How to Vote: </span></p>
         <ol>
           <li>Make a donation to a covid-19 related charity.  We recommend several on <Link to='/donate' style={linkStyle}>our donation page</Link>.</li>
           <li>Take a screenshot of the receipt of your donation</li>
@@ -84,7 +84,13 @@ const Watch = () => {
       <SubHeadline>Official Selections</SubHeadline>
       <FilmList>
         <FilmWrapper>
-          <p><FilmLink href="https://vimeo.com/364519805">BOGO</FilmLink></p>
+          <p><FilmLink href="https://vimeo.com/373628618">Pozole</FilmLink></p>
+          <Filmmakers>Written and directed by Jessica Mendez Siqueiros</Filmmakers>
+          <iframe src="https://player.vimeo.com/video/373628618" width="640" height="268" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </FilmWrapper>
+
+        <FilmWrapper>
+          <p><FilmLink href="https://vimeo.com/364519805/c3368f840c">BOGO</FilmLink></p>
           <Filmmakers>Directed by: Josh Copeland | Written by: Rebecca Haden</Filmmakers>
           <iframe src="https://player.vimeo.com/video/364519805?title=0&byline=0&portrait=0" width={iframeWidth} height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </FilmWrapper>
@@ -93,6 +99,12 @@ const Watch = () => {
           <p><FilmLink href="https://vimeo.com/145921182">EMMA INSPIRED</FilmLink></p>
           <Filmmakers>Co-Writers: Jamie Rice & Nicole Machon | Director: Nicole Machon | DP: Jamie Rice</Filmmakers>
           <iframe src="https://player.vimeo.com/video/145921182?title=0&byline=0&portrait=0" width={iframeWidth} height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </FilmWrapper>
+
+        <FilmWrapper>
+          <p><FilmLink href="https://vimeo.com/306707419">Receding</FilmLink></p>
+          <Filmmakers>Writer/Director: Dario Caudana</Filmmakers>
+        <iframe src="https://player.vimeo.com/video/306707419?color=efe200" width={iframeWidth} height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </FilmWrapper>
 
         <FilmWrapper>
@@ -117,12 +129,6 @@ const Watch = () => {
           <p><FilmLink href="https://vimeo.com/405046554">A PORTRAIT IN HEROISM</FilmLink></p>
           <Filmmakers>Mark Gallagher &amp; Brendan Boogie</Filmmakers>
           <iframe src="https://player.vimeo.com/video/405046554" width={iframeWidth} height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-        </FilmWrapper>
-
-        <FilmWrapper>
-          <p><FilmLink href="https://vimeo.com/306707419">Receding</FilmLink></p>
-          <Filmmakers>Writer/Director: Dario Caudana</Filmmakers>
-        <iframe src="https://player.vimeo.com/video/306707419?color=efe200" width={iframeWidth} height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </FilmWrapper>
       </FilmList>
 
