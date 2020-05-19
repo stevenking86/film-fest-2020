@@ -16,7 +16,7 @@ const LinkWrapper = styled.div`
 const Nav = () => {
   return (
     <LinkWrapper>
-      <Link>Home</Link> | <Link to='/submit'>Submit Now</Link> | <Link to='/what-is-this'>About</Link> | <Link to='/donate'>Donate</Link>
+      <Link>Home</Link> | <Link to='/watch'>Watch</Link> | <Link to='/what-is-this'>About</Link> | <Link to='/donate'>Donate</Link>
     </LinkWrapper>
   );
 }

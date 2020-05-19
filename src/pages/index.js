@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Image from "../components/image"
 import styled from 'styled-components';
 import Nav from "../components/nav"
@@ -26,6 +27,15 @@ const Para = styled.p`
   font-size: 20px;
 `;
 
+const linkStyle = {
+  textAlign: 'center',
+  color: '#C2FFFF',
+  fontSize: '45px',
+  fontFamily: 'courier',
+  display: 'block',
+  margin: '8px 0px 32px 0px'
+};
+
 const IndexPage = () => (
   <>
     <Headline style={{marginTop: '16px', paddingTop: '0px'}}>Quarantine Film Fest 2020</Headline>
@@ -33,7 +43,7 @@ const IndexPage = () => (
     <ImageWrapper>
       <Image />
     </ImageWrapper>
-    <Para>Screenings, Q&A's, and more begin May 22.</Para>
+    <Link to='/watch' style={linkStyle}>Watch Now</Link>
     <Nav />
   </>
 );
