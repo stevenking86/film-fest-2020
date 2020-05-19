@@ -1,17 +1,8 @@
 import React from "react"
 import Image from "../components/image"
 import styled from 'styled-components';
-import { Link } from "gatsby"
-
-const Wrapper = styled.div`
-  margin: 0 auto;
-  background-color: black;
-  height: 200vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-`;
+import Nav from "../components/nav"
+import "../styles/main.css"
 
 const ImageWrapper = styled.div`
   margin: 0 auto;
@@ -46,17 +37,15 @@ const LinkWrapper = styled.div`
   `;
 
 const IndexPage = () => (
-  <Wrapper>
+  <>
     <Headline style={{marginTop: '16px', paddingTop: '0px'}}>Quarantine Film Fest 2020</Headline>
     <Para>The best short films to get you through your stay-at-home order.</Para>
     <ImageWrapper>
       <Image />
     </ImageWrapper>
     <Para>Screenings, Q&A's, and more begin May 22.</Para>
-    <LinkWrapper>
-      <Link>Home</Link> | <Link to='/submit'>Submit Now</Link> | <Link to='/what-is-this'>About</Link> | <Link to='/donate'>Donate</Link>
-    </LinkWrapper>
-  </Wrapper>
+    <Nav />
+  </>
 );
 
 export default IndexPage

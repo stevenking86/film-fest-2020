@@ -1,16 +1,6 @@
 import React from "react"
 import styled from 'styled-components';
-import { Link } from "gatsby"
-
-const Wrapper = styled.div`
-  margin: 0 auto;
-  background-color: black;
-  height: 200vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-`;
+import Nav from "../components/nav"
 
 const Headline = styled.h1`
   text-align: center;
@@ -39,8 +29,8 @@ const LinkWrapper = styled.div`
   }
   `;
 
-const IndexPage = () => (
-  <Wrapper>
+const WhatIsThis = () => (
+  <>
     <Headline style={{marginTop: '16px', paddingTop: '0px'}}>Quarantine Film Fest 2020</Headline>
     <Para>
       QUARANTINE FILM FEST is born from our thirst to share art with others while maintaining social distance.
@@ -49,10 +39,9 @@ const IndexPage = () => (
     <Para>
       Our Mission: Watch some short films with our friends, donate some money to a good cause, and have a good time getting independent work out there. Join us!
     </Para>
-    <LinkWrapper>
-      <Link>Home</Link> | <Link to='/submit'>Submit Now</Link> | <Link to='/what-is-this'>About</Link> | <Link to='/donate'>Donate</Link>
-    </LinkWrapper>
-  </Wrapper>
+
+    <Nav />
+  </>
 );
 
-export default IndexPage
+export default WhatIsThis

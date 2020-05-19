@@ -1,16 +1,7 @@
 import React from "react"
-import styled from 'styled-components';
+import styled from 'styled-components'
 import { Link } from "gatsby"
-
-const Wrapper = styled.div`
-  margin: 0 auto;
-  background-color: black;
-  height: 200vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-`;
+import Nav from "../components/nav"
 
 const Headline = styled.h1`
   text-align: center;
@@ -43,8 +34,8 @@ const LinkWrapper = styled.div`
   }
   `;
 
-const IndexPage = () => (
-  <Wrapper>
+const Submit = () => (
+  <>
     <Headline style={{marginTop: '16px', paddingTop: '0px'}}>Quarantine Film Fest 2020</Headline>
     <Para>To submit: </Para>
     <Para>1. Make a <Link to='/donate'>donation</Link> (minimum $5) to one of the charities we recommend (or another of your choice!) Take a screenshot or send us a copy of the receipt!</Para>
@@ -86,10 +77,8 @@ const IndexPage = () => (
     >
       Know a filmmaker who's made a great short film? Please spread the word!
     </Para>
-    <LinkWrapper>
-      <Link>Home</Link> | <Link to='/submit'>Submit Now</Link> | <Link to='/what-is-this'>About</Link> | <Link to='/donate'>Donate</Link>
-    </LinkWrapper>
-  </Wrapper>
+    <Nav />
+  </>
 );
 
-export default IndexPage
+export default Submit

@@ -1,16 +1,6 @@
 import React from "react"
 import styled from 'styled-components';
-import { Link } from "gatsby"
-
-const Wrapper = styled.div`
-  margin: 0 auto;
-  background-color: black;
-  height: 150vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-`;
+import Nav from "../components/nav"
 
 const ImageWrapper = styled.div`
   margin: 0 auto;
@@ -49,7 +39,7 @@ const LinkWrapper = styled.div`
   `;
 
 const Donate = () => (
-  <Wrapper>
+  <>
     <Headline style={{marginTop: '16px', paddingTop: '0px'}}>Quarantine Film Fest 2020</Headline>
     <Para>
       We're encouraging all who enjoy this festival to donate to an organization helping out with Covid-19 relief.  Please consider making a donation to one of the following organizations:
@@ -61,10 +51,9 @@ const Donate = () => (
         <li><a target="_blank" rel="noopener noreferrer" href="https://give.salvationarmyusa.org/give/276832">Salvation Army</a></li>
       </ul>
     </Para>
-    <LinkWrapper>
-      <Link>Home</Link> | <Link to='/submit'>Submit Now</Link> | <Link to='/what-is-this'>About</Link> | <Link to='/donate'>Donate</Link>
-    </LinkWrapper>
-  </Wrapper>
+
+    <Nav />
+  </>
 );
 
 export default Donate
