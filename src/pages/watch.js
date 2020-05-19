@@ -58,23 +58,22 @@ const linkStyle = {
   textDecoration: 'none'
 }
 
+const iframeWidth = window.innerWidth > 650 ? 640 : window.innerWidth  - 32
+
 
 const Watch = () => (
   <>
     <Headline style={{marginTop: '16px', paddingTop: '0px'}}>Quarantine Film Fest 2020</Headline>
-    <Para>We're extremely proud to present the offical selections to Quarantine Film Fest 2020.  We were overwhelmed by submissions and couldn't be happier with the films we're presenting here.
-      We hope you enjoy them as much as we do.  Please enjoy the films and bonus content that we've been able to record with some of the filmmakers. More content will be added during the duration of the festival.
-      We plan to award one 'Winner' of the festival based totally on online voting.
-    </Para>
 
     <Para>
-      <span style={voteStyle}>How to Vote: </span>
-      <ul>
-        <li>Make a donattion to a charity.  We recommend several on <Link to='/donate' style={linkStyle}>our donation page</Link>.</li>
+      <p><span style={voteStyle}>How to Vote: </span></p>
+      <p>We'll be donating $100 to the winner's charity of choice in their name.</p>
+      <ol>
+        <li>Make a donation to a covid-19 related charity.  We recommend several on <Link to='/donate' style={linkStyle}>our donation page</Link>.</li>
         <li>Take a screenshot of the receipt of your donation</li>
         <li>Include that screenshot and the name of your favorite QFF2020 Film in an email to threeworkerfilms@gmail.com</li>
         <li>Stay tuned for the announcement of our winner during the 2nd week of June!</li>
-      </ul>
+      </ol>
     </Para>
 
     <SubHeadline>Official Selections</SubHeadline>
@@ -82,13 +81,43 @@ const Watch = () => (
       <FilmWrapper>
         <p><FilmLink href="https://vimeo.com/364519805">BOGO</FilmLink></p>
         <Filmmakers>Directed by: Josh Copeland | Written by: Rebecca Haden</Filmmakers>
-        <iframe src="https://player.vimeo.com/video/364519805?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/364519805?title=0&byline=0&portrait=0" width={iframeWidth} height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
       </FilmWrapper>
 
       <FilmWrapper>
         <p><FilmLink href="https://vimeo.com/145921182">EMMA INSPIRED</FilmLink></p>
         <Filmmakers>Co-Writers: Jamie Rice & Nicole Machon | Director: Nicole Machon | DP: Jamie Rice</Filmmakers>
-        <iframe src="https://player.vimeo.com/video/145921182?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/145921182?title=0&byline=0&portrait=0" width={iframeWidth} height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </FilmWrapper>
+
+      <FilmWrapper>
+        <p><FilmLink href="https://vimeo.com/283819984">Wait it Out - A Gay Romantic Comedy</FilmLink></p>
+        <Filmmakers>Alexandra Seal (Director/Producer/Story by) | Armistead Johnson (Writer/Producer) | Robbie Tann (DP/Editor)</Filmmakers>
+        <iframe src="https://player.vimeo.com/video/283819984" width={iframeWidth} height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </FilmWrapper>
+
+      <FilmWrapper>
+        <p><FilmLink href="https://vimeo.com/238169072">Death &amp; Disco Fries</FilmLink></p>
+        <Filmmakers>Dennis Cahlo / Cary Allen Productions</Filmmakers>
+        <iframe src="https://player.vimeo.com/video/238169072?title=0&byline=0&portrait=0" width={iframeWidth} height="291" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </FilmWrapper>
+
+      <FilmWrapper>
+        <p><FilmLink href="https://www.youtube.com/watch?v=JVP4bri7sWw&t=">The Selfish Ones</FilmLink></p>
+        <Filmmakers>Directed by Dharius Zulkefli | Written by Robert Mosca &amp; Eric Grisanti</Filmmakers>
+        <iframe width={iframeWidth} height="315" src="https://www.youtube.com/embed/JVP4bri7sWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </FilmWrapper>
+
+      <FilmWrapper>
+        <p><FilmLink href="https://vimeo.com/405046554">A PORTRAIT IN HEROISM</FilmLink></p>
+        <Filmmakers>Mark Gallagher &amp; Brendan Boogie</Filmmakers>
+        <iframe src="https://player.vimeo.com/video/405046554" width={iframeWidth} height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </FilmWrapper>
+
+      <FilmWrapper>
+        <p><FilmLink href="https://vimeo.com/306707419">Receding</FilmLink></p>
+        <Filmmakers>Writer/Director: Dario Caudana</Filmmakers>
+      <iframe src="https://player.vimeo.com/video/306707419?color=efe200" width={iframeWidth} height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
       </FilmWrapper>
     </FilmList>
 
