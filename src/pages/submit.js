@@ -13,7 +13,7 @@ const Headline = styled.h1`
 `;
 
 const Para = styled.p`
-  color: #C2FFFF;
+  color: #d6d8de;
   padding: 8px 32px 8px 32px;
   max-width: 800px;
   margin: 0 auto;

@@ -19,22 +19,12 @@ const Headline = styled.h1`
 `;
 
 const Para = styled.p`
-  color: #C2FFFF;
+  color: #d6d8de;
   font-family: 'courier';
   padding: 8px 32px 8px 32px;
   text-align: center;
   font-size: 20px;
 `;
-
-const LinkWrapper = styled.div`
-  color: #C2FFFF;
-  font-family: 'courier';
-  text-align: center;
-
-  a {
-   color: white;
-  }
-  `;
 
 const IndexPage = () => (
   <>

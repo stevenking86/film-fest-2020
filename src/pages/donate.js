@@ -2,11 +2,6 @@ import React from "react"
 import styled from 'styled-components';
 import Nav from "../components/nav"
 
-const ImageWrapper = styled.div`
-  margin: 0 auto;
-  max-width: 400px;
-`;
-
 const Headline = styled.h1`
   text-align: center;
   font-family: 'courier';
@@ -17,7 +12,7 @@ const Headline = styled.h1`
 `;
 
 const Para = styled.p`
-  color: #C2FFFF;
+  color: #d6d8de;
   padding: 8px 32px 8px 32px;
   max-width: 800px;
   margin: 0 auto;
@@ -27,16 +22,6 @@ const Para = styled.p`
     color: white;
    }
 `;
-
-const LinkWrapper = styled.div`
-  color: #C2FFFF;
-  font-family: 'courier';
-  text-align: center;
-
-  a {
-   color: white;
-  }
-  `;
 
 const Donate = () => (
   <>
