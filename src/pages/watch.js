@@ -58,6 +58,11 @@ const linkStyle = {
   textDecoration: 'none'
 }
 
+const youtubeCopyStyle = {
+  color: '#52D273',
+  textAlign: 'center'
+}
+
 
 const Watch = () => {
   let iframeWidth = 300
@@ -79,6 +84,8 @@ const Watch = () => {
           <li>Include that screenshot and the name of your favorite QFF2020 Film in an email to threeworkerfilms@gmail.com</li>
           <li>Stay tuned for the announcement of our winner during the 2nd week of June!</li>
         </ol>
+
+        <p style={youtubeCopyStyle}>Want more from the creators of these films? Subscribe to our <a style={linkStyle} href="https://www.youtube.com/channel/UCFEnboXiHcppm_EWLQ74xXQ">YouTube channel</a> for exclusive previews, Q&amp;As and more.</p>
       </Para>
 
       <SubHeadline>Official Selections</SubHeadline>
@@ -139,8 +146,6 @@ const Watch = () => {
           <iframe src="https://player.vimeo.com/video/396317414" width={iframeWidth} height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </FilmWrapper>
       </FilmList>
-
-
       <Nav />
     </>
   )
