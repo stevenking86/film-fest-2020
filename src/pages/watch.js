@@ -116,7 +116,7 @@ const Watch = () => {
 
         <FilmWrapper>
           <p><FilmLink href="https://vimeo.com/283819984">Wait it Out - A Gay Romantic Comedy</FilmLink></p>
-          <Filmmakers>Alexandra Seal (Director/Producer/Story by) | Armistead Johnson (Writer/Producer) | Robbie Tann (DP/Editor)</Filmmakers>
+          <Filmmakers>Alexandra Seal (Director/Producer/Story by) | Armistead Johnson (Writer/Producer)</Filmmakers>
           <iframe src="https://player.vimeo.com/video/283819984" width={iframeWidth} height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </FilmWrapper>
 
