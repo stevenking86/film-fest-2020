@@ -93,7 +93,7 @@ const Watch = () => {
         <FilmWrapper>
           <p><FilmLink href="https://vimeo.com/373628618">Pozole</FilmLink></p>
           <Filmmakers>Written and directed by Jessica Mendez Siqueiros</Filmmakers>
-          <iframe src="https://player.vimeo.com/video/373628618" width="640" height="268" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          <iframe src="https://player.vimeo.com/video/373628618" width={iframeWidth} height="268" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </FilmWrapper>
 
         <FilmWrapper>
