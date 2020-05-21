@@ -76,10 +76,10 @@ const Watch = () => {
       <Headline style={{marginTop: '16px', paddingTop: '0px'}}>Quarantine Film Fest 2020</Headline>
 
       <Para>
-        <p>We'll be donating $100 to the winner's charity of choice in their name.</p>
+        <p>We'll be donating $100 to the QFF2020 Winner's charity of choice in their name.</p>
         <p><span style={voteStyle}>How to Vote: </span></p>
         <ol>
-          <li>Make a donation to a covid-19 related charity.  We recommend several on <Link to='/donate' style={linkStyle}>our donation page</Link>.</li>
+          <li>Make a donation to a Covid-19 related charity.  We recommend several on <Link to='/donate' style={linkStyle}>our donation page</Link></li>
           <li>Take a screenshot of the receipt of your donation</li>
           <li>Include that screenshot and the name of your favorite QFF2020 Film in an email to threeworkerfilms@gmail.com</li>
           <li>Stay tuned for the announcement of our winner during the 2nd week of June!</li>
@@ -112,6 +112,12 @@ const Watch = () => {
           <p><FilmLink href="https://vimeo.com/306707419">Receding</FilmLink></p>
           <Filmmakers>Writer/Director: Dario Caudana</Filmmakers>
         <iframe src="https://player.vimeo.com/video/306707419?color=efe200" width={iframeWidth} height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </FilmWrapper>
+
+        <FilmWrapper>
+          <p><FilmLink href="https://vimeo.com/60133714">Mike Holt 4Ever</FilmLink></p>
+          <Filmmakers>Directed By: Kenneth Anderson and Ryan Garretson</Filmmakers>
+          <iframe src="https://player.vimeo.com/video/60133714?color=f58484&byline=0&portrait=0" width={iframeWidth} height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </FilmWrapper>
 
         <FilmWrapper>
